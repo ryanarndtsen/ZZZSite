@@ -1,0 +1,41 @@
+
+html, body {
+  height: 100%;
+  padding:0;
+  margin:0;
+  background-color: #cdbca3;
+}
+div {
+    position: relative;
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.boximg {
+    height: 100%;
+    width: 100%;
+    transition-duration: .6s;
+}
+.boximg:hover{
+    background-color: black;
+}
+.slides {
+    position: absolute;
+    top: 12%;
+    height: 88%;
+    width: 100%;
+}
+.header{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.header img{
+    height: 110px;
+    width: 340px;
+}
+
+/*.box {
+    border-left-style: solid;
+    border-left-color: #288a59;
+}*/
