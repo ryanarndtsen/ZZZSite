@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    padding:0;
+    margin:0;
+    background-color: #cdbca3;
+  }
+.navbar {
+    padding-left: 22%;
+    padding-right: 20%;
+    overflow: hidden;
+    background-color: #cdbca3;
+}
+.navbar.scrolled {
+    background-color: black !important;
+    transition: background-color 200ms ease-out;
+}
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+}
+.navbar a img {
+    height: 49.25px;
+    width: 128px;
+}
+
+#logo {
+    height: 49.25px;
+    width: 92.34375px;
+}
+.soundcloud {
+    margin-top: 125px;
+    margin-left: 25%;
+}
+.scframe {
+    display: block;
+    width: 660px;
+    height: 650px;
+    margin-top: 50px;
+}
+
+.playlist{
+    position: relative;
+    display: block;
+}
+#playlistitem {
+    position: relative;
+    margin-top:50px;
+    top:25%;
+    left: 25%;
+}
+
+#firstsongs {
+    margin-left: 25%;
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 15px;
+    color: grey;
+    font-family: 'Courier New', Courier, monospace;
+}

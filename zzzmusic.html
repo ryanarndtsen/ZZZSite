@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>zzz_music</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<link href="stylemusic.css" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm fixed-top navbar-center">
+
+		<!-- Links -->
+		<ul class="navbar-nav">
+		  <li class="nav-item">
+			<a href="home1.html"><img id="logo" src="img/zzz_logowhite.png"></a>
+		  </li>
+		  <li class="nav-item">
+			<a class="active" href="#"><img src="img/zzz_smalltab_white4.png"></a>
+		  </li>
+		  <li class="nav-item">
+			<a href="#"><img src="img/zzz_smalltab_white3.png"></a>
+		  </li>
+		  <li class="nav-item">
+			<a href="#"><img src="img/zzz_smalltab_white2.png"></a>
+		  </li>
+		  <li class="nav-item">
+			<a href="zzzsocial.html"><img src="img/zzz_smalltab_white1.png"></a>
+		  </li>
+		</ul>
+	  
+	</nav>
+	<div class="soundcloud">
+
+		<iframe class="scframe" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/821444098&color=%23288a59&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+		<div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+			<a href="https://soundcloud.com/chazin" title="chazin" target="_blank" style="color: #cccccc; text-decoration: none;">chazin</a>
+			<a href="https://soundcloud.com/chazin/zzz_mix_02-hours" title="zzz_mix_02: hours" target="_blank" style="color: #cccccc; text-decoration: none;">zzz_mix_02: hours</a>
+		</div>
+
+	</div>
+
+	<div class="playlist">
+		<iframe id="playlistitem" allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/ca/playlist/zzz-flows/pl.u-EdAVk2bsX3XZpd"></iframe><br>
+		<iframe id="playlistitem" src="https://open.spotify.com/embed/playlist/5QOLg9QOSsxedzENefhL0f" width="660" height="450" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+	</div>
+
+	<div id="firstsongs">
+		<iframe class="scframe" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/780026047&color=%23288a59&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+		<div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+			<a href="https://soundcloud.com/chazin" title="chazin" target="_blank" style="color: #cccccc; text-decoration: none;">chazin</a>
+			<a href="https://soundcloud.com/chazin/zzz_mix_01" title="zzz_mix_01" target="_blank" style="color: #cccccc; text-decoration: none;">zzz_mix_01</a>
+		</div>
+
+		<iframe class="scframe" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/777293353&color=%23288a59&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+		<div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+			<a href="https://soundcloud.com/chazin" title="chazin" target="_blank" style="color: #cccccc; text-decoration: none;">chazin</a>
+			<a href="https://soundcloud.com/chazin/zeal-lenz" title="zeal lenz" target="_blank" style="color: #cccccc; text-decoration: none;">zeal lenz</a>
+		</div>
+	</div>
+
+	<div class="footer">
+		<p> © zzz_collection</p>
+	</div>
+	<script>
+		$(function () {
+  			$(document).scroll(function () {
+   			var $nav = $(".navbar");
+    		$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height()-50);
+  			});
+		});
+	</script>
+</body>
