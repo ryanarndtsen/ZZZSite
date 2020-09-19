@@ -6,10 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>zzz_social</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<link href="stylesocial.css" rel="stylesheet">
+	<script src="scriptsocial.js"></script>
 </head>
 
 <body>
@@ -24,10 +26,10 @@
 			<a href="zzzmusic.html"><img src="img/zzz_smalltab_white4.png"></a>
 		  </li>
 		  <li class="nav-item">
-			<a href="#"><img src="img/zzz_smalltab_white3.png"></a>
+			<a href="zzzart.html"><img src="img/zzz_smalltab_white3.png"></a>
 		  </li>
 		  <li class="nav-item">
-			<a href="#"><img src="img/zzz_smalltab_white2.png"></a>
+			<a href="zzzshop.html"><img src="img/zzz_smalltab_white2.png"></a>
 		  </li>
 		  <li class="nav-item">
 			<a href="#"><img src="img/zzz_smalltab_white1.png"></a>
@@ -35,9 +37,34 @@
 		</ul>
 	  
 	</nav>
-	<div class="footer">
-		<p> © zzz_collection</p>
+	<div class="icons">
+		<a id="myicon" href="https://www.instagram.com/zzz_collection/"><i class="fa fa-instagram"></i></a>
+		<a id="myicon2" href="https://soundcloud.com/chazin"><i class="fa fa-soundcloud"></i></a>
 	</div>
+	<div class="wrapper">
+		<h2>Contact Us</h2>
+		<div id="error_message"></div>
+		<form id="myform" method="post" name="emailform" onsubmit="return(validate());">
+			<div class="input_field">
+				<input type="text" placeholder="Name" id="name" name="name">
+			</div>
+			<div class="input_field">
+				<input type="text" placeholder="Email" id="email" name="mail">
+			</div>
+			<div class="input_field">
+				<textarea placeholder="Message" id="message" name="message"></textarea>
+			</div>
+			<div class="btn">
+				<input type="submit" name="submit" value="submit">
+			</div>
+		</form>
+	</div>
+	
+
+	<footer id="footer">
+		<p> © zzz_collection</p>
+	</footer>
+
 	<script>
 		$(function () {
   			$(document).scroll(function () {

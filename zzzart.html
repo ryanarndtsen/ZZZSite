@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>zzz_art</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<link href="styleart.css" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm fixed-top navbar-center">
+
+		<!-- Links -->
+		<ul class="navbar-nav">
+		  <li class="nav-item">
+			<a href="home1.html"><img id="logo" src="img/zzz_logowhite.png"></a>
+		  </li>
+		  <li class="nav-item">
+			<a href="zzzmusic.html"><img src="img/zzz_smalltab_white4.png"></a>
+		  </li>
+		  <li class="nav-item">
+			<a href="zzzshop.html"><img src="img/zzz_smalltab_white3.png"></a>
+		  </li>
+		  <li class="nav-item">
+			<a href="#"><img src="img/zzz_smalltab_white2.png"></a>
+		  </li>
+		  <li class="nav-item">
+			<a href="zzzsocial.html"><img src="img/zzz_smalltab_white1.png"></a>
+		  </li>
+		</ul>
+	  
+    </nav>
+    <div class="gallery">
+        <img class="portrait" src="img/art/IMG_0553.PNG"><br>
+        <img class="portrait" src="img/art/IMG_0558.PNG"><br>
+        <img class="portrait" src="img/art/IMG_0561.PNG"><br>
+        <img class="portrait" src="img/art/IMG_0557.PNG"><br>
+        <img class="portrait" src="img/art/IMG_0552.PNG"><br>
+        <img class="portrait" src="img/art/IMG_0555.PNG"><br>
+        <img class="portrait" src="img/art/IMG_0554.PNG"><br>
+        <img class="portrait" src="img/art/IMG_0559.PNG"><br>
+        <img class="portrait" src="img/art/IMG_0560.PNG"><br>
+        <img class="portrait" src="img/art/IMG_0545.PNG"><br>
+    </div>
+    <div class="footer">
+		<p> © zzz_collection</p>
+	</div>
+	<script>
+		$(function () {
+  			$(document).scroll(function () {
+   			var $nav = $(".navbar");
+    		$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height()-50);
+  			});
+		});
+	</script>
+</body>

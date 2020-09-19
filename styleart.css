@@ -3,13 +3,13 @@ html, body {
     padding:0;
     margin:0;
     background-color: #cdbca3;
-  }
+}
 .navbar {
     padding-left: 24.5%;
     padding-right: 22.5%;
     overflow: hidden;
     background-color: #cdbca3;
-}
+  }
 .navbar.scrolled {
     background-color: black !important;
     transition: background-color 200ms ease-out;
@@ -23,41 +23,22 @@ html, body {
     height: 49.25px;
     width: 128px;
 }
-
 #logo {
     height: 49.25px;
     width: 92.34375px;
 }
-.soundcloud {
+
+.gallery {
+    width: 610px;
     margin-top: 125px;
     margin-left: auto;
     margin-right: auto;
-    width: 660px;
 }
-.scframe {
-    display: block;
-    width: 660px;
-    height: 650px;
-    margin-top: 50px;
+.portrait {
+    margin-top: 25px;
+    width:610px;
+    height: 814px;
 }
-
-.playlist{
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 660px;
-}
-#playlistitem {
-    position: relative;
-    margin-top:50px;
-}
-
-#firstsongs {
-    margin-left: auto;
-    margin-right: auto;
-    width: 660px;
-}
-
 .footer {
     margin-top: 50px;
     text-align: right;
