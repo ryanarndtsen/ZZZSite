@@ -5,6 +5,7 @@ html, body {
     background-color: #cdbca3;
   }
 .navbar {
+    display: block;
     padding-left: 24.5%;
     padding-right: 22.5%;
     overflow: hidden;
@@ -65,4 +66,9 @@ html, body {
     font-size: 15px;
     color: grey;
     font-family: 'Courier New', Courier, monospace;
+}
+@media screen and (max-width:768px) {
+    .navbar{
+      display:none;
+    }
 }

@@ -9,6 +9,6 @@ if(isset($_POST['submit'])){
     $txt = "Message from ".$name.".\n\n".$message;
 
     mail($mailTo, $subject, $txt, $headers);
-    header("Location: index.php?mailsent");
+    header("Location: zzzsocial.html?mailsent");
 }
 ?>

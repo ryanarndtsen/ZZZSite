@@ -11,7 +11,7 @@ function validate(){
     error_message.innerHTML = text;
     return false;
   }
-  if(/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/.test(email) == false){
+  if(/[\w-\.]+@([\w-]+\.)+[\w-]{2,4}/.test(email) == false){
     text = "Please Enter Valid Email";
     error_message.innerHTML = text;
     return false;

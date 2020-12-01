@@ -11,7 +11,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<link href="stylesocial.css" rel="stylesheet">
-	<script src="scriptsocial.js"></script>
+	<script src="form-submission-handler.js"></script>
 </head>
 
 <body>
@@ -44,7 +44,7 @@
 	<div class="wrapper">
 		<h2>Contact Us</h2>
 		<div id="error_message"></div>
-		<form id="myform" method="post" name="emailform" onsubmit="return(validate());">
+		<form id="myform" method="post" name="emailform" onsubmit="return(validate());" action="https://script.google.com/macros/s/AKfycbzWQmya4H2rreyTjEQ5EkrXX6J8p9x_eT-MeQBT/exec">
 			<div class="input_field">
 				<input type="text" placeholder="Name" id="name" name="name">
 			</div>
@@ -58,19 +58,11 @@
 				<input type="submit" name="submit" value="submit">
 			</div>
 		</form>
-	</div>
-	
+	</div>	
 
 	<footer id="footer">
 		<p> © zzz_collection</p>
 	</footer>
 
-	<script>
-		$(function () {
-  			$(document).scroll(function () {
-   			var $nav = $(".navbar");
-    		$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height()-50);
-  			});
-		});
-	</script>
 </body>
+</html>
